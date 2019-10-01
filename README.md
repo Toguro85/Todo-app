@@ -1,2 +1,2 @@
 # Todo-app
-Making a simple todo app using nodejs and java script
+Making a simple todo app using Node.js and Java Script
