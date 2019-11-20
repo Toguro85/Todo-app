@@ -1,3 +1,3 @@
 # Todo-app
-Making a simple todo app using Node,Java Script and ejs
+Making a simple todo app using Java Script and React
 taking care of day to day activity
