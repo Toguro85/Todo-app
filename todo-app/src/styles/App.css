@@ -5,12 +5,11 @@
 }
 
 body {
-    background: linear-gradient(rgb(47,150,163), rgb(48,62,143));
+    background: whitesmoke;
     height: 100vh;
 }
 
 .todo-list {
-    background-color: linear-gradient(rgb(47,150,163), rgb(48,62,143));
     margin: auto;
     margin-top: 50px;
     width: 50%;
