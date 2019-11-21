@@ -4,8 +4,14 @@ import TodoItem from './TodoItem';
 import todosData from './todosData'
 
 class App extends React.Component{
+    constructor(){
+        super()
+        this.state = {
+            todos : todosData
+        }
+    }
     render(){
-    const todo = todosData.map(task => <TodoItem key={task.id} item={task}/>)
+    const todo = this.state.todos.map(task => <TodoItem key={task.id} item={task}/>)
     return (
         <div className="todo-list">
             {todo}
